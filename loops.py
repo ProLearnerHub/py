@@ -17,12 +17,12 @@
 
 list =["item_one", "item_two, "item_three", "item_four"]
 for item in list:
-    print(item) #or do something with this item
+    print(item) #or do something with this item, repeats 4 times
 
 # or
 
 for item in range (len(list)): # this means within the length of our list, which is four, as there are four items in our list
-    print(item) # or whatever you want 10 times
+    print(item) # or whatever you want 4 times
 
 #or
 while item < 2:
