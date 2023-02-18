@@ -26,7 +26,11 @@ for item in range (len(list)): #this means within the length of our list, which 
     print(item) # or whatever you want 4 times
 
 #or
+
 while item < 2:
     print(item)
     item = item - 1 # or whatever case you want as your modifier
+
+# it is important to always remember to have an exit condition for your loop, otherwise you'll have an infinite loop that consumes all computer memory, and could potentially ruin your drives
+
 
