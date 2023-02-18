@@ -21,8 +21,8 @@ for item in list:
 
 # or
 
-for item of list:
-    print(item) # or whatever you want
+for item in range len(list):
+    print(item) # or whatever you want 10 times
 
 #or
 while item < 2:
