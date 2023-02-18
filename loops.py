@@ -1,4 +1,4 @@
-De# loops are used to iterate over a list of data.
+# loops are used to iterate over a list of data.
 # a list is a collection of items, for example, students in a class.
 # using this example, we might have a looping function that calculates the fee balances for each student, or we want to collectively update some information about them
 # there are multiple methods of writing loops, but the most efficient and also popular method uses the keyword "for", followed by the criteria, for example "in" "of" etc.
@@ -13,7 +13,7 @@ De# loops are used to iterate over a list of data.
 #while item doesn't_meet_condition
 #do something and modify value of item
 
-For example:
+# For example:
 
 list =["item_one", "item_two, "item_three", "item_four"]
 for item in list:
@@ -21,7 +21,7 @@ for item in list:
 
 # or
 
-for item in range (len(list)):
+for item in range (len(list)): # this means within the length of our list, which is four, as there are four items in our list
     print(item) # or whatever you want 10 times
 
 #or
