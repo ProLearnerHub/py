@@ -13,7 +13,7 @@
 #while item doesn't_meet_condition
 #do something and modify value of item
 
-For example:
+# For example:
 
 list =["item_one", "item_two", "item_three", "item_four"]
 for item in list:
@@ -21,7 +21,7 @@ for item in list:
 
 # or
 
-for item in range (len(list)):
+for item in range (len(list)): #this means within the length of our list, which is 4 as there are four items in the list 
     print(item) # or whatever you want 4 times
 
 #or
