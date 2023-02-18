@@ -4,12 +4,13 @@
 # there are multiple methods of writing loops, but the most efficient and also popular method uses the keyword "for", followed by the criteria, for example "in" "of" etc.
 # the concept is to iterate over individuals "in" a list, or individuals "of" a list.
 
-# syntax is like
+# syntax is like (language agnostic)
 
 # for item starts_at  1 ends_at 10
 # do something 10 times
 
 # Or
+
 #while item doesn't_meet_condition
 #do something and modify value of item
 
